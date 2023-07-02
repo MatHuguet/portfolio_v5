@@ -17,13 +17,13 @@ export default function Header() {
                 </div>
                 <div className="social">
                     <ul className="social-list">
-                        <li className="social-list-item">
+                        <li className="social-list-item github">
                             <img src={LogoGit} alt="github link" width="30px"/>
                         </li>
-                        <li className="social-list-item">
+                        <li className="social-list-item linkedin">
                             <img src={LogoLinkedin} alt="linkedin link" width="40px"/>
                         </li>
-                        <li className="social-list-item">
+                        <li className="social-list-item instagram">
                             <img src={LogoInstagram} alt="instagram link" width="30pxx"/>
                         </li>
                     </ul>
