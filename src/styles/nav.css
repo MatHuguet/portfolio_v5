@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    flex-grow: 1;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+
+.nav-item > h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    padding-left: 4.5rem;
+    letter-spacing: 3px;
+
+}
+
+.nav-item {    
+    width: 100%;
+    transition: .2s ease;
+    height: 100%;
+    padding-block: .2rem;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    transition: .2s ease;
+    height: 100%;
+}

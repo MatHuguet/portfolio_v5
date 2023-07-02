@@ -1,0 +1,10 @@
+.content-container {
+    display: flex;
+    height: 100%;
+    flex-grow: 4;
+}
+
+.social-list {
+    list-style-type: none;
+}
+
