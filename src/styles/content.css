@@ -23,6 +23,7 @@
     letter-spacing: -0.2rem;
     text-rendering: optimizeSpeed;
     color: rgba(158, 158, 158, 0.8);
+    white-space: nowrap;
 }
 
 .section-content {
