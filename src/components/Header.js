@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/header-style.css"
-import LogoGit from "../img/icons8-github-grey90.png"
-import LogoLinkedin from "../img/icons8-linkedin-grey96.png"
-import LogoInstagram from "../img/icons8-instagram-grey100.png"
+import LogoGit from "../img/icons8-github-96.png"
+import LogoLinkedin from "../img/icons8-linkedin-bw-96.png"
+import LogoInstagram from "../img/icons8-instagram-96.png"
 
 export default function Header() {
     return (
@@ -18,13 +18,19 @@ export default function Header() {
                 <div className="social">
                     <ul className="social-list">
                         <li className="social-list-item github">
-                            <img src={LogoGit} alt="github link" width="30px"/>
+                            <a href="https://github.com/MatHuguet">
+                                <img src={LogoGit} alt="github link" width="30px"/>
+                            </a>
                         </li>
                         <li className="social-list-item linkedin">
-                            <img src={LogoLinkedin} alt="linkedin link" width="40px"/>
+                            <a href="https://www.linkedin.com/in/mathieu-huguet-b954371b9/">
+                                <img src={LogoLinkedin} alt="linkedin link" width="30px"/>
+                            </a>
                         </li>
                         <li className="social-list-item instagram">
-                            <img src={LogoInstagram} alt="instagram link" width="30pxx"/>
+                            <a href="https://www.instagram.com/nuggyrocks/">
+                                <img src={LogoInstagram} alt="instagram link" width="30pxx"/>
+                            </a>
                         </li>
                     </ul>
                 </div>

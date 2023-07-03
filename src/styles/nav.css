@@ -1,35 +1,39 @@
 nav {
     display: flex;
+    position: relative;
+    z-index: 2;
     flex-grow: 1;
 }
 
 .nav-container {
     display: flex;
+    position: fixed;
     flex-direction: column;
-    justify-content: center;
     align-items: start;
     width: 100%;
 }
 
 .nav-item > h4 {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.6rem;
+    font-size: 2rem;
     padding-left: 4.5rem;
+    padding-right: 5rem;
     letter-spacing: 3px;
+    user-select: none;
 
 }
+
 
 .nav-item {    
     width: 100%;
     transition: .2s ease;
-    height: 100%;
-    padding-block: .2rem;
     cursor: pointer;
+    padding-block: .2rem;
 }
 
 .nav-item:hover {
-    background-color: rgb(78, 78, 78);
+    background-color: rgba(78, 78, 78);
     color: white;
     transition: .2s ease;
-    height: 100%;
+    width: 100%;
 }

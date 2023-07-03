@@ -80,9 +80,16 @@ h3 {
 
 }
 
+.social-list {
+    list-style-type: none;
+}
+
+
 .social-list-item {
     text-align: center;
 }
+
+
 
 ul > li > img > .github, ul > li > img > .instagram {
     border-radius: 10px;
