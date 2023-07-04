@@ -6,6 +6,7 @@ font-family: 'Roboto', sans-serif;
 * {
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 .container {
     display: flex;
     width: 100%;
-    height: 14rem;
+    height: 20rem;
     border-bottom: solid 1px black;
 }
 
@@ -46,15 +47,16 @@ h1, h2, h3 {
 h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 900;
-    font-size: 2.4rem;
+    font-size: 4rem;
     letter-spacing: 8px;
-    margin-bottom: .5rem;
+    margin-bottom: .8rem;
+    transform: translateY(-1rem);
 }
 
 .first-name {
     font-family: 'Oswald', sans-serif;
     font-weight: 900;
-    font-size: 2.4rem;
+    font-size: 3.8rem;
 }
 
 h2, h3 {

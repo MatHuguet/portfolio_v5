@@ -18,17 +18,17 @@ export default function Header() {
                 <div className="social">
                     <ul className="social-list">
                         <li className="social-list-item github">
-                            <a href="https://github.com/MatHuguet">
+                            <a href="https://github.com/MatHuguet" target="_blank" rel="noreferrer">
                                 <img src={LogoGit} alt="github link" width="30px"/>
                             </a>
                         </li>
                         <li className="social-list-item linkedin">
-                            <a href="https://www.linkedin.com/in/mathieu-huguet-b954371b9/">
+                            <a href="https://www.linkedin.com/in/mathieu-huguet-b954371b9/" target="_blank" rel="noreferrer">
                                 <img src={LogoLinkedin} alt="linkedin link" width="30px"/>
                             </a>
                         </li>
                         <li className="social-list-item instagram">
-                            <a href="https://www.instagram.com/nuggyrocks/">
+                            <a href="https://www.instagram.com/nuggyrocks/" target="_blank" rel="noreferrer">
                                 <img src={LogoInstagram} alt="instagram link" width="30pxx"/>
                             </a>
                         </li>
